@@ -1,0 +1,251 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica Neue';
+  color: white;
+  /*outline: 1px dotted white;*/
+}
+
+.wrapper{
+  background-color: black;
+  width: 1000px;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.header{
+  background-color: #1a1a1a;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.header img{
+  width: auto;
+  height: 80px;
+  margin: 10px 0px 0px 20px;
+}
+
+.header_box{
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.header_box h1{
+  font-size: 16pt;
+  color: #e4e4e4;
+}
+
+.navigation{
+  background: linear-gradient(#515151, #3b3b3b, #252525);
+  height: 35px;
+  padding: 10px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navi_box{
+  width: 650px;
+  height: auto;
+}
+
+.navi_box ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation ul li{
+  font-size: 12pt;
+  color: #a3a2a2;
+  font-weight: bold;
+  font-family: 'Arial';
+  border-left: 1px solid #4d4d4d;
+  box-shadow: -2px 0px 0px 0px #303030;
+  padding: 5px 10px 5px 15px;
+}
+
+.navigation ul li span{
+  font-size: 10pt;
+  color: #a3a2a2;
+  font-family: 'Acme';
+  position: relative;
+  bottom: 2px;
+
+}
+
+#white{
+  font-size: 12pt;
+  color: #e4e4e4;
+  font-weight: bold;
+  border-left: none;
+  box-shadow: none;
+}
+
+.navi_box_right{
+  position: relative;
+  width: 35px;
+  height: 54px;
+  border-left: 1px solid #4c4c4c;
+  box-shadow: -2px 0px 0px 0px #303030;
+}
+
+.main_pic{
+  width: 1000px;
+  height: auto;
+  border-bottom: 5px solid #3b3b3b;
+  margin-bottom: -2px;
+}
+
+.info{
+  background-color: #1a1a1a;
+  width: 970px;
+  height: 120px;
+  padding: 20px 15px 20px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info_box{
+  width: 230px;
+  height: 90px;
+}
+
+.info_box img{
+  padding-bottom: 50px;
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  float: left;
+}
+
+.info_box h1{
+  font-size: 16pt;
+  font-weight: normal;
+  font-family: 'Slabo 27px', serif;
+  color: #fc7200;
+  position: relative;
+}
+
+.info_box p{
+  font-size: 10pt;
+  margin-top: 5px;
+  line-height: 150%;
+  position: relative;
+}
+
+.buy_now{
+  background-image: url("background_stripe.png");
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy_now_box{
+  width: auto;
+  height: 130px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buy_now_box h1{
+  font-size: 20pt;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.buy_now_box p{
+  width: 700px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  margin-top: 10px;
+}
+
+.buy_now_box a{
+  width: 130px;
+  height: 35px;
+  background: linear-gradient(#ff9040, #ff7900);
+  font-size: 14pt;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 15px 0px 15px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px black;
+}
+
+.portfolio{
+  background-color: #1a1a1a;
+  height: 380px;
+  padding: 30px 20px 5px 20px;
+}
+
+.portfolio h2{
+  font-size: 18pt;
+  font-weight: normal;
+  font-family: 'Slabo 27px', serif;
+  width: 500px;
+  display: inline;
+}
+
+.portfolio a{
+  font-size: 12pt;
+  color: #fc7200;
+  font-style: italic;
+  text-decoration: none;
+  float: right;
+  position: relative;
+}
+
+.port_box{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.port_box_content{
+  width: 230px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.port_box_content img{
+  border: 5px solid #363636;
+  width: 220px;
+  height: auto;
+}
+
+.port_box_content h1{
+  font-size: 16pt;
+  font-weight: normal;
+  font-family: 'Slabo 27px', serif;
+  color: #fc7200;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+.port_box_content p{
+  font-size: 11pt;
+  line-height: 140%;
+}
+
+#back_top{
+  font-size: 9pt;
+  color: #726d6c;
+  font-style: normal;
+  text-align: right;
+  text-decoration: none;
+}
